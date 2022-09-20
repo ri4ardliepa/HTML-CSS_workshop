@@ -1,0 +1,22 @@
+p{
+	margin-top:1.0pt;
+    font-size: 15px; 
+	line-height: 33px;
+	font: 15px Arial, sans-serif;
+}
+
+
+h1.small-caps{
+	
+	font: 50px serif;
+	font-style: italic;
+	font-stretch: expanded;
+	
+}
+
+
+body{
+	
+	background-color:lightblue;
+	
+}
