@@ -66,6 +66,48 @@ A CSS preprocessor is a scripting language that extends CSS by allowing develope
 Before we go any further, a quick public service announcement is in order: most web designers would say that if you're new to CSS, you're better off avoiding Sass (or any preprocessors, extensions or frameworks) while you're still learning. While it's true they offer many advantages in speed and efficiency, it's important that you really get to grips with the basics of CSS. Make sure you learn the core concepts before you start exploring shortcuts and confusing things.
 </p>
 
+<br>
+
+<head>
+      <title>JavaScript Animation</title>      
+      <script type = "text/javascript">
+         <!--
+            var imgObj = null;
+            
+            function init() {
+               imgObj = document.getElementById('myImage');
+               imgObj.style.position= 'relative'; 
+               imgObj.style.left = '0px'; 
+            }
+            function moveRight() {
+               imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+            }
+            
+            window.onload = init;
+         //-->
+      </script>
+   </head>
+   
+   <body>   
+      <form style ="background-color:green">
+         <img id = "myImage" src = "C:\Users\st75694\Downloads\arrow.png" />
+         <p style ="color:white">Click button below to move the image to right</p>
+         <input type = "button" value = "Click Me" onclick = "moveRight();" />
+      </form>      
+   </body>
+   
+   <br>
+   
+   <form action="https://www.youtube.com/watch?v=RVmG_d3HKBA" method="POST">
+    <button>Button to relax</button>  
+</form>
+
+<br>
+
+<form action="https://www.w3schools.com/Css/" method="POST">
+    <button> CSS learning resource</button>  
+</form>
+   
 
 </body>
 </html>

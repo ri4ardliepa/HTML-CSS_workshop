@@ -15,8 +15,19 @@ h1.small-caps{
 }
 
 
+
 body{
 	
 	background-color:lightblue;
+	opacity: 1.0;
 	
 }
+
+button{
+	
+	background-color:white;
+	$("button").click(function(){
+    $("#box").animate({height: "300px"});
+});
+}
+	
