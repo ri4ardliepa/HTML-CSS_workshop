@@ -107,8 +107,66 @@ Before we go any further, a quick public service announcement is in order: most 
 <form action="https://www.w3schools.com/Css/" method="POST">
     <button> CSS learning resource</button>  
 </form>
+
+   <br>
    
+<h2>Effects in jQuery</h2>
+
+<p>This is a paragraph outside Div</p>
+
+<button id="btn1">Click me 1</button>
+<button id="btn2">Click me 2</button>
+
+<div id="firstdiv" class="mydivs">
+<p>This is first paragraph in first division</p>
+<p>This is second paragraph in first devision</p>
+</div> 
+
+<div id="seconddiv" class="mydivs">
+<p>This is third paragraph in second division</p>
+</div>
+
+<div id="thirddiv" class="mydivs">
+<ul>
+<li>List item 1</li>
+<li>List item 2</li>
+<li>List item 3</li>
+<li>List item 4</li>
+</ul>
+</div>
+
+<div>
+<ul>
+<li>List item 1</li>
+<li>List item 2</li>
+<li>List item 3</li>
+<li>List item 4</li>
+</ul>
+</div>
+  
 
 </body>
+
+<script src="js/jquery.1.js"</script>
+
+<script>
+$(document).ready(function () {
+
+$("#btn1").click(function() {
+
+$("#firstdiv").hide();
+
+});
+
+
+$("#btn2").click(function() {
+
+$("#firstdiv").show();
+
+});
+});
+
+</script>
+
 </html>
 
